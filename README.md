@@ -46,11 +46,7 @@ Here shows one example per traffic sign type.
 
 Below is an example of step by step pre-processed images. From left to right: original, grayscaled, CLAHE applied, and normalized.
 
-
-
-![](images\pre-process.png)
-
-
+![](./images/pre-process.png)
 
 ### CNN Architecture Design
 
