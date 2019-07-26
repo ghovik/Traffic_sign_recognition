@@ -9,13 +9,9 @@ Pipeline:
 * Design, train and test different model architectures
 * Use trained model to make predictions on new traffic sign images
 
-
-
 ### Introduction
 
 Recognition of traffic signs is a challenging task in many real-world applications, such as autonomous driving, which is one of the hottest topics right now in the world. A typical traffic sign recognition system consists of two main parts, traffic sign detection and recognition. This project is focused on the recognition. The idea of this project is inspired by a multi-class competition, called German Traffic Sign Recognition Benchmark (GTSRB), proposed at IJCNN in 2011. A dataset contains more then 50,000 traffic sign images is provided by the competition. The class frequencies are unbalanced due to the fact that the traffic signs have a wide range of variations in terms of color, shape, and the presence of figures and text. Consequently, several pre-process methods based on computer vision have been used to provide images with better quality. After that, two CNN classifiers based on the famous LeNet are implemented. After training, both classifiers provide more than 92% validation accuracy.
-
-
 
 ### Dataset summary
 
@@ -28,13 +24,11 @@ Recognition of traffic signs is a challenging task in many real-world applicatio
 
 The histogram below shows the distribution of each traffic sign class.
 
-![](.\images\hist.png)
+![](./images/hist.png)
 
 Here shows one example per traffic sign type.
 
-![](images\sign_examples.png)
-
-
+![](images/sign_examples.png)
 
 ### Pre-processing
 
