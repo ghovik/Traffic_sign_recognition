@@ -28,7 +28,7 @@ Recognition of traffic signs is a challenging task in many real-world applicatio
 
 The histogram below shows the distribution of each traffic sign class.
 
-![](images\hist.png)
+![](\images\hist.png)
 
 Here shows one example per traffic sign type.
 
